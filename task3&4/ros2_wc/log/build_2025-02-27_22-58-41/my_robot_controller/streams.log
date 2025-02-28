@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/rohith/ros2_wc/build/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rohith/ros2_wc/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/rohith/ros2_wc/install/my_robot_controller
+[1.419s] -- The C compiler identification is GNU 13.3.0
+[2.005s] -- The CXX compiler identification is GNU 13.3.0
+[2.047s] -- Detecting C compiler ABI info
+[2.366s] -- Detecting C compiler ABI info - done
+[2.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.388s] -- Detecting C compile features
+[2.409s] -- Detecting C compile features - done
+[2.439s] -- Detecting CXX compiler ABI info
+[2.619s] -- Detecting CXX compiler ABI info - done
+[2.639s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.640s] -- Detecting CXX compile features
+[2.641s] -- Detecting CXX compile features - done
+[2.798s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.054s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.372s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.393s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.817s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.835s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[4.609s] Error parsing '/home/rohith/ros2_wc/src/my_robot_controller/package.xml':
+[10.496s] Invoked command in '/home/rohith/ros2_wc/build/my_robot_controller' returned '-2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rohith/ros2_wc/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/rohith/ros2_wc/install/my_robot_controller

@@ -1,0 +1,6 @@
+{
+  "package_name": "my_robot_controller",
+  "non_idl_tuples": [
+    "/home/rohith/ros2_wc/src/my_robot_controller:action/CountUntil.action"
+  ]
+}

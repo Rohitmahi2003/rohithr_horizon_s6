@@ -1,0 +1,2 @@
+Invoking command in '/home/rohith/ros2_wc/build/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rohith/ros2_wc/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/rohith/ros2_wc/install/my_robot_controller
+Invoked command in '/home/rohith/ros2_wc/build/my_robot_controller' returned '-2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rohith/ros2_wc/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/rohith/ros2_wc/install/my_robot_controller

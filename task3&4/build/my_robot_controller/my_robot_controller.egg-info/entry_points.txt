@@ -1,0 +1,9 @@
+[console_scripts]
+add_two_ints_client = my_robot_controller.add_two_ints_client:main
+add_two_ints_server = my_robot_controller.add_two_ints_server:main
+count_until_client = my_robot_controller.count_until_client:main
+count_until_server = my_robot_controller.count_until_server:main
+draw_circle = my_robot_controller.draw_circle:main
+pose_subscriber = my_robot_controller.pose_subscriber:main
+test_node = my_robot_controller.my_first_node:main
+turtle_controller = my_robot_controller.turtle_controller:main

@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000179] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000236] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.015213] (my_robot_controller) JobProgress: {'identifier': 'my_robot_controller', 'progress': 'cmake'}
+[0.016454] (my_robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/rohith/ros2_wc/src/my_robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/rohith/ros2_wc/install/my_robot_controller'], 'cwd': '/home/rohith/ros2_wc/build/my_robot_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rohith', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rohith', 'OLDPWD': '/home/rohith', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2319', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rohith/ros2_wc/install:/home/rohith/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rohith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rohith', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rohith-IdeaPad-3-15ADA05:@/tmp/.ICE-unix/2126,unix/rohith-IdeaPad-3-15ADA05:/tmp/.ICE-unix/2126', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/defcf41c_c787_4465_a617_335e29507a27', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YJOA22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.315', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rohith/install/my_robot_controller:/home/rohith/ros2_wc/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rohith/ros2_wc/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rohith/install/my_robot_controller/lib/python3.12/site-packages:/home/rohith/ros2_wc/build/my_robot_controller:/home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.098758] (-) TimerEvent: {}
+[0.201660] (-) TimerEvent: {}
+[0.302051] (-) TimerEvent: {}
+[0.402380] (-) TimerEvent: {}
+[0.502722] (-) TimerEvent: {}
+[0.603273] (-) TimerEvent: {}
+[0.706885] (-) TimerEvent: {}
+[0.808384] (-) TimerEvent: {}
+[0.908730] (-) TimerEvent: {}
+[1.010682] (-) TimerEvent: {}
+[1.112093] (-) TimerEvent: {}
+[1.212459] (-) TimerEvent: {}
+[1.312805] (-) TimerEvent: {}
+[1.413197] (-) TimerEvent: {}
+[1.418770] (my_robot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.513372] (-) TimerEvent: {}
+[1.613728] (-) TimerEvent: {}
+[1.714622] (-) TimerEvent: {}
+[1.815003] (-) TimerEvent: {}
+[1.915357] (-) TimerEvent: {}
+[2.005442] (my_robot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.016405] (-) TimerEvent: {}
+[2.047365] (my_robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.116646] (-) TimerEvent: {}
+[2.217378] (-) TimerEvent: {}
+[2.318811] (-) TimerEvent: {}
+[2.366440] (my_robot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.386100] (my_robot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.388122] (my_robot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.408802] (my_robot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.419371] (-) TimerEvent: {}
+[2.439036] (my_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.520225] (-) TimerEvent: {}
+[2.618646] (my_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.623035] (-) TimerEvent: {}
+[2.639479] (my_robot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.640260] (my_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.641271] (my_robot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.723162] (-) TimerEvent: {}
+[2.797879] (my_robot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.823306] (-) TimerEvent: {}
+[2.924613] (-) TimerEvent: {}
+[3.027381] (-) TimerEvent: {}
+[3.054356] (my_robot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.127601] (-) TimerEvent: {}
+[3.227997] (-) TimerEvent: {}
+[3.328377] (-) TimerEvent: {}
+[3.372496] (my_robot_controller) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[3.393450] (my_robot_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.420486] (my_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.428836] (-) TimerEvent: {}
+[3.529202] (-) TimerEvent: {}
+[3.629589] (-) TimerEvent: {}
+[3.635342] (my_robot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.729920] (-) TimerEvent: {}
+[3.816872] (my_robot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.830063] (-) TimerEvent: {}
+[3.833908] (my_robot_controller) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[3.930232] (-) TimerEvent: {}
+[4.030770] (-) TimerEvent: {}
+[4.131091] (-) TimerEvent: {}
+[4.236361] (-) TimerEvent: {}
+[4.339801] (-) TimerEvent: {}
+[4.440616] (-) TimerEvent: {}
+[4.540938] (-) TimerEvent: {}
+[4.609237] (my_robot_controller) StderrLine: {'line': b"Error parsing '/home/rohith/ros2_wc/src/my_robot_controller/package.xml':\n"}
+[4.642211] (-) TimerEvent: {}
+[4.743354] (-) TimerEvent: {}
+[4.843688] (-) TimerEvent: {}
+[4.944010] (-) TimerEvent: {}
+[5.044389] (-) TimerEvent: {}
+[5.145356] (-) TimerEvent: {}
+[5.246402] (-) TimerEvent: {}
+[5.346831] (-) TimerEvent: {}
+[5.447152] (-) TimerEvent: {}
+[5.547535] (-) TimerEvent: {}
+[5.649214] (-) TimerEvent: {}
+[5.749842] (-) TimerEvent: {}
+[5.850214] (-) TimerEvent: {}
+[5.950579] (-) TimerEvent: {}
+[6.050917] (-) TimerEvent: {}
+[6.152600] (-) TimerEvent: {}
+[6.254617] (-) TimerEvent: {}
+[6.357524] (-) TimerEvent: {}
+[6.460104] (-) TimerEvent: {}
+[6.560821] (-) TimerEvent: {}
+[6.662361] (-) TimerEvent: {}
+[6.763315] (-) TimerEvent: {}
+[6.865353] (-) TimerEvent: {}
+[6.965680] (-) TimerEvent: {}
+[7.066044] (-) TimerEvent: {}
+[7.166448] (-) TimerEvent: {}
+[7.266783] (-) TimerEvent: {}
+[7.368655] (-) TimerEvent: {}
+[7.469931] (-) TimerEvent: {}
+[7.570254] (-) TimerEvent: {}
+[7.670588] (-) TimerEvent: {}
+[7.770928] (-) TimerEvent: {}
+[7.871262] (-) TimerEvent: {}
+[7.979434] (-) TimerEvent: {}
+[8.082565] (-) TimerEvent: {}
+[8.184538] (-) TimerEvent: {}
+[8.284893] (-) TimerEvent: {}
+[8.385304] (-) TimerEvent: {}
+[8.488521] (-) TimerEvent: {}
+[8.590575] (-) TimerEvent: {}
+[8.692814] (-) TimerEvent: {}
+[8.795721] (-) TimerEvent: {}
+[8.896133] (-) TimerEvent: {}
+[8.996510] (-) TimerEvent: {}
+[9.096894] (-) TimerEvent: {}
+[9.197232] (-) TimerEvent: {}
+[9.299580] (-) TimerEvent: {}
+[9.399958] (-) TimerEvent: {}
+[9.500396] (-) TimerEvent: {}
+[9.600822] (-) TimerEvent: {}
+[9.701163] (-) TimerEvent: {}
+[9.801782] (-) TimerEvent: {}
+[9.903368] (-) TimerEvent: {}
+[10.006311] (-) TimerEvent: {}
+[10.125361] (-) TimerEvent: {}
+[10.227598] (-) TimerEvent: {}
+[10.329826] (-) TimerEvent: {}
+[10.431363] (-) TimerEvent: {}
+[10.496023] (my_robot_controller) CommandEnded: {'returncode': -2}
+[10.496489] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 'SIGINT'}
+[10.512516] (-) EventReactorShutdown: {}

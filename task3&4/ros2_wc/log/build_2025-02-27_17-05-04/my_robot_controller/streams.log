@@ -1,0 +1,20 @@
+[1.608s] Invoking command in '/home/rohith/ros2_wc/build/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rohith/ros2_wc/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohith/ros2_wc/build/my_robot_controller/build --no-deps symlink_data
+[2.225s] running develop
+[2.619s] running egg_info
+[2.657s] writing my_robot_controller.egg-info/PKG-INFO
+[2.865s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.882s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.883s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.883s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.963s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.964s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[3.006s] running build_ext
+[3.007s] Creating /home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[3.009s] Installing draw_circle script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[3.009s] Installing pose_subscriber script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[3.010s] Installing test_node script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[3.010s] Installing turtle_controller script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[3.011s] 
+[3.011s] Installed /home/rohith/ros2_wc/build/my_robot_controller
+[3.011s] running symlink_data
+[3.115s] Invoked command in '/home/rohith/ros2_wc/build/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rohith/ros2_wc/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohith/ros2_wc/build/my_robot_controller/build --no-deps symlink_data

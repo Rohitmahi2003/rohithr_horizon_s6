@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from my_robot_controller/action/CountUntil.action
+// generated code does not contain a copyright notice
+
+
+module my_robot_controller {
+  module action {
+    struct CountUntil_Goal {
+      int32 target_number;
+
+      float period;
+    };
+    struct CountUntil_Result {
+      int32 current_number;
+    };
+    struct CountUntil_Feedback {
+      int32 current_number;
+    };
+  };
+};

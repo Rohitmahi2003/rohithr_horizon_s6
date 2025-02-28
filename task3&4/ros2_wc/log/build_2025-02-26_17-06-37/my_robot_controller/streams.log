@@ -1,0 +1,25 @@
+[1.606s] Invoking command in '/home/rohith/ros2_wc/build/my_robot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rohith/ros2_wc/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohith/ros2_wc/build/my_robot_controller/build --no-deps symlink_data
+[2.222s] running develop
+[2.611s] running egg_info
+[2.611s] creating my_robot_controller.egg-info
+[2.649s] writing my_robot_controller.egg-info/PKG-INFO
+[2.650s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.650s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.652s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.652s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.652s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.730s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.734s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.773s] running build_ext
+[2.773s] Creating /home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages/my-robot-controller.egg-link (link to .)
+[2.774s] Installing draw_circle script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[2.774s] Installing test_node script to /home/rohith/ros2_wc/install/my_robot_controller/lib/my_robot_controller
+[2.775s] 
+[2.775s] Installed /home/rohith/ros2_wc/build/my_robot_controller
+[2.775s] running symlink_data
+[2.776s] creating /home/rohith/ros2_wc/install/my_robot_controller/share/ament_index
+[2.776s] creating /home/rohith/ros2_wc/install/my_robot_controller/share/ament_index/resource_index
+[2.776s] creating /home/rohith/ros2_wc/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.776s] symbolically linking /home/rohith/ros2_wc/build/my_robot_controller/resource/my_robot_controller -> /home/rohith/ros2_wc/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.777s] symbolically linking /home/rohith/ros2_wc/build/my_robot_controller/package.xml -> /home/rohith/ros2_wc/install/my_robot_controller/share/my_robot_controller
+[2.879s] Invoked command in '/home/rohith/ros2_wc/build/my_robot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rohith/ros2_wc/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohith/ros2_wc/install/my_robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohith/ros2_wc/build/my_robot_controller/build --no-deps symlink_data
